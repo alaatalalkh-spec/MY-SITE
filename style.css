@@ -92,18 +92,22 @@ header .navbar nav {
     font-weight: 600;
 }
 
-header .navbar nav ul {
+header .navbar nav ul
+{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.navbar ul li a {
+.navbar ul li a,
+.navbar #logo {
     text-decoration: none;
     transition: 0.3s ease;
 }
 
-.navbar ul li a:hover {
+.navbar ul li a:hover,
+header #logo:hover
+{
     color: #fff; 
     text-shadow: 0 0 10px #b43d79, 0 0 20px #b43d79, 0 0 30px #b43d79;
 }
